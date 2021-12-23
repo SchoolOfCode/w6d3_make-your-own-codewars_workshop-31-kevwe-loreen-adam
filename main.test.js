@@ -1,22 +1,17 @@
 //👉 Write your tests below here:
-import { bootcampers } from "./SoC.js" 
+//import { bootcampers } from "./SoC.js" 
+import { highestScores } from "./main.js"
 
-describe("Test scores", function(){
- test("Returning the bootcampers with passing grades above a score of 5", function() {
+describe("Passing", function(){
+ test("Return the bootcampers with passing grades above a score of 5", function() {
     //arrange 
-    const score = 6; 
-    
+    const expected = [
+      { name: 'Adam', score: 8 },
+      { name: 'Joe', score: 10 },
+      { name: 'Mariah', score: 6 }
+    ] 
     //act
-    const actual = passingGrade(score);
+    const actual = highestScores;
     //assert 
-    expect(actual).toBe(expected)
- })   
- test("when the user has a low score return try again", function() {
-    //arrange 
-    const score = 4; 
-    const expected = ""
-    //act
-    const actual = passingGrade(score);
-    //assert 
-    expect(actual).toBe(expected)
- })}); 
+    expect(actual).toStrictEqual(expected); 
+   })})    

@@ -3,7 +3,7 @@
 Make this a better story 
 
 Quiz results 
-
+The 
 if you get more than 5 out of 10 then youve passed a string for when theyve passed 
 
 if you get less than 5 out of 10 youve failed a string for when theyve failed 
