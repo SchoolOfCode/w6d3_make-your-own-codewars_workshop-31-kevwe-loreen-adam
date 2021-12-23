@@ -1,22 +1,110 @@
 /* 
 👉 Write your kata here!
-Make this a better story 
+ 
 Quiz results champions
-Create a function that displays scores from SoC students' daily quizes - 
-showing scores by hightest/lowest, alphabetically or regionally.
-Have students with quiz scores. Students need score of 7-10 to pass. 
-Write a function that returns a new array of students that have passed
 
-Ideas: 
-different quiz's have different number of answers so could we use percentages? 
+A group of bootcampers have just taken a test, the ones whove passed can have some extra break while the ones who failed have to take the test again. 
+
+Students need score of 6-10 to pass. 
+
+Assign a new Array to the highestScores variable that contains the bootcampers who have passed the test.
+
+theres a hint on line 110 if you need it
 */
 
-import { bootcampers } from "./SoC.js";
+import { bootcampers } from "./SoC.js"; 
 
-//👉 Write the function your CodeWarriors will start with below here: Make this more difficult 
+//👉 Write the function your CodeWarriors will start with below here:
 
-const highestScores = bootcampers.filter(function (bootcamper){ 
-    return bootcamper.score > 5 }); 
-    console.log(highestScores)
+/*do not edit*/ const highestScores = /*can edit*/
 
- export {highestScores}
+/* do not edit*/ export {highestScores}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ //you need to use an array method!! 

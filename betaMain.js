@@ -1,25 +1,14 @@
 /* 
 👉 Write your kata here!
-Make this a better story 
 
 Quiz results 
-The 
-if you get more than 5 out of 10 then youve passed a string for when theyve passed 
-
-if you get less than 5 out of 10 youve failed a string for when theyve failed 
-
-Ideas: 
-different quiz's have different number of answers so could we use percentages? 
-
+Pupils take a daily test and need a mark of 6 or more to pass.
+if a pupil has passed return a string saying "congratulations"
+if a pupil has failed return a string saying "try again"
 */
 
-//👉 Write the function your CodeWarriors will start with below here: Make this more difficult 
+//👉 Write the function your CodeWarriors will start with below here: Make this more difficult
 
 export function passingGrade(testScore) {
-    if ( testScore > 5){ 
-        const result = "congratulations"
-            return result;
-        } 
-        const result = "try again" 
-        return result;
-};
+  //code goes here!
+}
